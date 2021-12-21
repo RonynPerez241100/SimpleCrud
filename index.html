@@ -2,21 +2,22 @@
 <html>
 <head>
 <link rel="stylesheet" href="styles.css">
-<title>Page Title</title>
+<title>SimpleCrud
+</title>
 </head>
 <body>
 
 <header>
-
+    <h1>Simple Crud</h1>
 </header>
 
 <body>
-    <main>
+    <main>        
         <div class="input">
             <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
                 <div>
-                    <label>Nombre Completo</label>
-                    <label class="validation-error hide" id="fullNameValidationError">*Este campo es requerido*.</label>
+                    <label>Nombre Completo:</label>
+                    <label class="validation-error hide" id="fullNameValidationError">**</label>
                     <input type="text" name="fullName" id="fullName">
                 </div>
                 <div>
