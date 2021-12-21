@@ -32,8 +32,8 @@ function insertNewRecord(data) {
     cell4 = newRow.insertCell(3);
     cell4.innerHTML = data.city;
     cell4 = newRow.insertCell(4);
-    cell4.innerHTML = `<a onClick="onEdit(this)">Edit</a>
-                       <a onClick="onDelete(this)">Delete</a>`;
+    cell4.innerHTML = `<a onClick="onEdit(this)">Editar</a>
+                       <a onClick="onDelete(this)">Borrar</a>`;
 }
 
 function resetForm() {
