@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<header>
+
+</header>
+
+<body>
+    <main>
+        <div class="input">
+            <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                <div>
+                    <label>Nombre Completo</label>
+                    <label class="validation-error hide" id="fullNameValidationError">*Este campo es requerido*.</label>
+                    <input type="text" name="fullName" id="fullName">
+                </div>
+                <div>
+                    <label>Numero de empleado:</label>
+                    <input type="text" name="empCode" id="empCode">
+                </div>
+                <div>
+                    <label>Salario</label>
+                    <input type="text" name="salary" id="salary">
+                </div>
+                <div>
+                    <label>Ciudad</label>
+                    <input type="text" name="city" id="city">
+                </div>
+                <div  class="form-action-buttons">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        <div class="result">
+            <table class="list" id="employeeList">
+                <thead>
+                    <tr>
+                        <th>Nombre completo</th>
+                        <th>Numero de empleado</th>
+                        <th>Salario</th>
+                        <th>Ciudad</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+    
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+
+</html>
