@@ -1,97 +1,97 @@
-*, *:after, *:before{
+*, *:after,* :before{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Space Mono', monospace;
+    font-family: monospace;
 }
 
-
-
 body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: hsl(185, 41%, 84%);
-    min-height: 100vh;
-    position: relative;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: hsl(185, 41%, 84%);
+ min-height: 10vh;
+ position: relative;
 }
 
 main{
-    
     background-color: hsl(0, 0%, 100%);
     border-radius: 1em;
     margin: 1em;
     padding: 2em;
     max-width: 1040px;
-}
 
-h1{
-    color: green;
-    font-style: oblique;
-    font-size: xx-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 8px;
 }
-
-input{
-    width: 100%;
-  padding: 12px 20px;
-  margin: 8PX;
-  box-sizing: border-box;
-  border: 2px solid green;
-  color: rgb(47, 5, 145);
-  font-family: sans-serif;
-  font-style: initial;
-}
-
 a{
-    color: #C1DAD7;
-    font: size 20px;
+    color: white;
+    font-size: 12px;
     text-decoration: underline;
-    margin:20px;
+    margin: 2px;
 }
-
 
 a:hover{
     cursor: pointer;
 }
 
-div {
+label{
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(47, 5, 147);
+}
+
+h1{
+ color: green;
+ font-style: oblique;
+ font-size: xx-large;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ padding: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 12px, 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 2px solid green;
+    color: rgb(47, 5, 147);
+    font-family: Arial;
+    font-style: initial;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+div{
     display: block;
 }
 
 tr th{
-	font-weight:bold;
-    }
+    font-weight: bold;
+}
 tr th, tr td{
-	padding:5px;
-}
-th{
-    border: 5px solid #C1DAD7;
-}
-td{
-	border: 5px solid #C1DAD7;
-}
-.c1{
-	background:#4b8c74;
-}
-.c2{
-	background:#74c476;
-}
-.c3{
-	background:#a4e56d;
-}
-.c4{
-	background:#cffc83;
+    padding: 8px;
 }
 
-.result {
+th{
+    border: 3px solid #c1dad7;
+}
+td{
+    border: 3px solid #c1dad7;
+}
+
+.c1, .c2, .c3, .c4{
+    background: lawngreen;
+}
+
+.result{
     padding: 2em;
-    background: hsl(183, 100%, 15%);
+    background: hsl(183, 86%, 39%);
     border-radius: 1em;
     display: flex;
     flex-direction: column;
-    gap: 0.5em;
+    gap: .5em;
 }
+
 
