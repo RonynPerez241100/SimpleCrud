@@ -59,7 +59,7 @@ function updateRecord(formData) {
 }
 
 function onDelete(td) {
-    if (confirm('Are you sure to delete this record ?')) {
+    if (confirm('Seguro que desea borrar esta celda ?')) {
         row = td.parentElement.parentElement;
         document.getElementById("employeeList").deleteRow(row.rowIndex);
         resetForm();
